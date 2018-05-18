@@ -14,13 +14,16 @@
 
 /* Header
 ------------------------------------------------------------*/
-.flexible-images {
+.photo {
   height: 500px;
   width: 100%;
+  background-image: url("https://rpr.c.yimg.jp/im_siggnJmcak0fWiCYq5jQgeSFpQ---x800-n1/amd/20160504-00057348-roupeiro-000-3-view.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
 @media (max-width: 768px){
-   .flexible-images {
+   .photo {
     height: 250px;
   }
 }
