@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+/* Align
+------------------------------------------------------------*/
+.text-center {
+  text-align: center; }
+  
+/* Layout
+------------------------------------------------------------*/
+.block-center, section .container, #skills i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* Header
+------------------------------------------------------------*/
+.flexible-images {
+  height: 500px;
+  width: 100%;
+}
+
+@media (max-width: 768px){
+   .flexible-images {
+    height: 250px;
+  }
+}
+
+/* Contents
+------------------------------------------------------------*/
+section {
+  padding: 60px 0; }
+  section .container {
+    width: 90%; }
+  section h2 {
+    font-size: 3.2rem; }
+
+#skills {
+  background-color: #bea300; 
+  margin-top: 70px
+}
+  #skills .container {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+  #skills h2 {
+    color: #fdfcf6;
+    margin-bottom: 60px; }
+  #skills .skill-box {
+    -webkit-flex: 1;
+    flex: 1;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fdfcf6;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  #skills h3 {
+    color: #14c0c9;
+    margin-bottom: 10px;
+    font-size: 2.4rem;
+    font-weight: bold; }
+
+@media (min-width: 1025px) {
+  #skills .container {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between; }
+  #skills .skill-box {
+    margin: 0 10px; } }
+    
+  #contact {
+      background-color: #66cdaa;
+      margin-top: 70px
+  }
+  
+  
+  .btn {
+  padding:30px 80px;
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+  
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin-top: 50px
+}
+  
+.signup {
+  background-color:#ffb6c1;
+  text-align: center;
+  width: 40%;
+  height: 40%;
+  border-radius: 15px;
+}
+  
+@media (max-width: 768px){
+  .signup {
+    
+  }
+  
+}
+
+
+
+
